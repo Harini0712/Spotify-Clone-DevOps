@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+
+# Docker
+*.tar
+docker-data/
+monitoring/prometheus_data/
+monitoring/grafana_data/
+
+# Jenkins local data
+jenkins_home/
+
+# OS files
+.DS_Store
+
+# VS Code
+.vscode/
