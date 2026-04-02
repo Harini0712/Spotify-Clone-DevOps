@@ -9,7 +9,7 @@ const DisplayHome = () => {
     <>
       <Navbar />
       <div className="mb-4">
-        <h1 className="my-5 font-bold text-2xl">Your Hated Playlist</h1>
+        <h1 className="my-5 font-bold text-2xl">Your Loved Playlist</h1>
         <div className="flex overflow-auto">
           {albumsData.map((item, index) => (
             <AlbumItems
